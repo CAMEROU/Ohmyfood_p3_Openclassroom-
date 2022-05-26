@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Shrikhand&display=swap");
+
+*,::before,
+::after{
+    box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+}
+
+header {
+    font-family: "Shrikhand", "cursive";
+    text-align: center;
+    position: relative;
+    box-shadow: 0 0 0.5rem rgba(0 0 0 /20%);
+    padding: 0.5rem;
+    font-size: 3rem;
+  }
+  
+
+
+  
+  

@@ -1,15 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Shrikhand&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&family=Shrikhand&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&family=Shrikhand&display=swap');
 
 *,::before,
 ::after{
     box-sizing: border-box;
 }
 
-body{
-  margin: 0;
-  font-size: "Roboto", "sans serif";
-}
 
 header {
     font-family: "Shrikhand", "cursive";
@@ -19,8 +15,13 @@ header {
     padding: 0.5rem;
     font-size: 3rem;
   }
+  body{
+    margin: 0;
+    font-size: "Roboto", "sans serif";
+  }
 
- main.france{
+
+ .france{
     background-color: #f3f3f3;
     text-align: center;
     padding: 1rem;
@@ -33,11 +34,23 @@ header {
 
   }
   
-main.france .marker-alt{
+  .france .marker-alt{
     font-size: 2.8rem;
-    
-    
+  
   }
+
+  #explorez{
+    text-align: center;
+  }
+  #explorez h2{
+    margin-top: 2rem;
+    font-size: 3rem;
+  }
+
+  #explorez p{
+    font-size: 1.7rem;
+  }
+
 
 
   

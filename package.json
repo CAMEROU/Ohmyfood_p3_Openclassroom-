@@ -1,0 +1,22 @@
+{
+  "name": "ohmyfood_p3_openclassroom-",
+  "description": "mon projet openclassroom ohmyfood",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo Error: no test specified && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CAMEROU/Ohmyfood_p3_Openclassroom-.git"
+  },
+  "author": "Willson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CAMEROU/Ohmyfood_p3_Openclassroom-/issues"
+  },
+  "homepage": "https://github.com/CAMEROU/Ohmyfood_p3_Openclassroom-#readme",
+  "devDependencies": {
+    "sass": "^1.52.1"
+  }
+}

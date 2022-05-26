@@ -1,0 +1,28 @@
+#explorez {
+  text-align: center;
+  font-family: "Roboto", "Sans serif";
+}
+#explorez h2 {
+  font-size: 3.4rem;
+  font-family: "Roboto", "Sans serif";
+  margin-top: 2rem;
+}
+#explorez p {
+  font-size: 2rem;
+}
+#explorez button {
+  padding: 2rem 3rem;
+  font-size: 2.5rem;
+  border-radius: 4rem;
+  font-weight: 800;
+  color: white;
+  border: none;
+  opacity: 1.01;
+  margin-top: 1rem;
+  box-shadow: 1px 3px 12px -2px #000;
+  transition: all 100ms;
+}
+#explorez button:hover {
+  transform: scale(1.03);
+  background-image: linear-gradient(#ff79da, #9356dc);
+}/*# sourceMappingURL=explorez.css.map */

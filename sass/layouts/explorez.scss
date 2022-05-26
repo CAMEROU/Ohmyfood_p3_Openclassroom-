@@ -1,0 +1,35 @@
+@use "../utils/zoom.scss";
+@use "../utils/shadow.scss";
+@use "../utils/gradient.scss";
+#explorez {
+    text-align: center;
+    font-family: "Roboto", "Sans serif";
+  
+  h2 {
+    font-size: 3.4rem;
+    font-family: "Roboto", "Sans serif";
+    margin-top: 2rem;
+  
+  }
+   p {
+    font-size: 2rem;
+   }
+  
+  button {
+  padding: 2rem 3rem;
+  font-size: 2.5rem;
+  border-radius: 4rem;
+  font-weight: 800;
+  color: white;
+  border: none;
+  opacity: 1.01;
+  margin-top: 1rem;
+  /*box-shadow: 1px 3px 12px -2px #000;*/
+  @include box-shadow;
+  transition: all 100ms;
+  &:hover{
+  @include zoom-one;
+  @include gradient;
+  }
+  }
+  }

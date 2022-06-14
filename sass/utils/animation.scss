@@ -6,7 +6,7 @@
     }
 
     100% {
-transform: tate(0);
+transform: rotate(0);
     }  
 }
 }
@@ -15,7 +15,7 @@ transform: tate(0);
 @mixin checks {
 @keyframes checks {
     0% {
-        transform: translateY(50%);
+        transform: translateY(-50%);
         opacity: 0;
     }
     100% {

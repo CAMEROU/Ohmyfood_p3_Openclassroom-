@@ -4,21 +4,23 @@
   background-color: #f6f6f6;
   justify-content: center;
   display: flex;
+  gap: 1rem;
   margin-bottom: 2rem;
   align-items: center;
   font-family: "Roboto", "Sans serif";
+  /*{
+        font-size: 3rem;
+        margin-right: -9rem;
+
+      }*/
+}
+.france .fa-location-dot {
+  font-size: 3rem;
 }
 .france h2 {
-  font-size: 3rem;
-  margin-left: 10rem;
+  font-size: 2.9rem;
 }
-
-.fa-location-dot {
-  font-size: 3rem;
-  margin-right: -9rem;
-}
-
-.plus {
+.france .plus {
   padding: 0 1rem;
   margin: 1rem;
 }/*# sourceMappingURL=france.css.map */

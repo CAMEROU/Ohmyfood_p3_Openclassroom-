@@ -1,4 +1,4 @@
-@-webkit-keyframes monspinAnimation {
+@-webkit-keyframes nosAnimations {
   0% {
     transform: rotate(-270deg);
   }
@@ -6,7 +6,7 @@
     transform: rotate(0);
   }
 }
-@keyframes monspinAnimation {
+@keyframes nosAnimations {
   0% {
     transform: rotate(-270deg);
   }
@@ -17,16 +17,20 @@
 @-webkit-keyframes monAnimation {
   0% {
     transform: translateY(50%);
+    opacity: 0;
   }
   100% {
     transform: translateY(0);
+    opacity: 1;
   }
 }
 @keyframes monAnimation {
   0% {
     transform: translateY(50%);
+    opacity: 0;
   }
   100% {
     transform: translateY(0);
+    opacity: 1;
   }
 }/*# sourceMappingURL=animations.css.map */

@@ -34,6 +34,10 @@ a {
   color: inherit;
 }
 
+h4 {
+  font-weight: 900;
+}
+
 ul li {
   list-style-type: none;
 }

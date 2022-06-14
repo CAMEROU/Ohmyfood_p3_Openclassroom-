@@ -1,6 +1,6 @@
-@use "../utils/zoom.scss";
+@import "../utils/mixins.scss";
 .indication {
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     counter-reset: steps;
   
   
@@ -17,48 +17,59 @@
   }
    li {
     position: relative;
+    margin-bottom: 2rem;
+    font-family: "Roboto";
     list-style-type: none;
     background-color: #f6f6f6;
     border-radius: 3rem;
-    box-shadow: 0 0 0.5 rgba(0, 0, 0, 0);
+    box-shadow: 0 0 0 1px #dddd;
     padding: 3.5rem 3.5rem;
     flex-grow: 1;
-    box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0);
+
+    
+   &:hover {
+    transform: translateY(0);
+    background-color: rgba(236, 223, 230, 0.897);
+    .fa-solid{
+      color: purple;
+    }
+}
   }
   
    li::before {
     content: counter(steps);
     counter-increment: steps;
     color: white;
-    font-size: 2rem;
+    font-size: 3rem;
     background-color: #9356dc;
-    height: 3rem;
-    width: 3rem;
+    height: 4rem;
+    width: 4rem;
     display: grid;
     place-items: center;
     position: absolute;
-    left: -1rem;
-    margin-top: 1rem;
+    left: -0.1rem;
+    bottom: 30%;
+    margin-top: 50%;
+    transform:translateX(-50%) ;
     border-radius: 50%;
   }
   
    .choix {
-    font-size: 3rem;
+    font-size: 3.6rem;
     margin-right: 2.6rem;
   }
   
    .fa-solid {
-    font-size: 3.5rem;
+    font-size: 3.6rem;
     margin-right: 2.5rem;
     color: gray;
   }
   
    h2 {
     font-size: 2.5rem;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
+    font-family: "Roboto";
   }
   
-   li:hover {
-    @include zoom;
   }
-  }
+  

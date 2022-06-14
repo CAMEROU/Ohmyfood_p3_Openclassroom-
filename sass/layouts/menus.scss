@@ -1,0 +1,111 @@
+@import "../utils/mixins.scss";
+@import "../utils/mixins.scss";
+
+.menus{
+    font-family: "Raleway", sans-serif;
+    background-color: #f6f6f6;
+    margin-bottom: 5rem;
+
+    h2{
+        margin-bottom: 2rem;
+        padding: 2rem 0;
+        font-size: 3rem;
+        font-family: "Roboto";
+    }
+        .menus__card{
+display: flex;
+flex-wrap: wrap;
+gap: 2rem;
+        }   
+            .new{
+                position: relative;
+            }
+             .new::before{
+                content: "Nouveau";
+                position: absolute;
+                right: 2rem;
+                top: 2rem;
+                height: 5rem;
+                font-size: 2rem;
+                width: 13rem;
+             background-color: #99E2D0;
+             color: darkgreen;
+             display: grid;
+             place-items: center;
+            }
+  .card{
+      flex-grow: 1;
+      margin-bottom: 3rem;
+
+&__images{
+    background-image: url("../../photo/menus-1.jpg");
+    min-height: 30rem;
+    min-width: 600px;
+     background-size: cover;
+     background-position: center;
+     border-radius: 35px 35px 0 0;
+     
+}
+&__images-2{
+    background-image: url("../../photo/menus-2.jpg");
+    min-height: 30rem;
+    min-width: 600px;
+     background-size: cover;
+     background-position: center;
+     border-radius: 35px 35px 0 0;
+}
+&__images-3{
+    background-image: url("../../photo/menus-3.jpg");
+    min-height: 30rem;
+    min-width: 600px;
+     background-size: cover;
+     background-position: center ;
+     border-radius: 35px 35px 0 0;
+}
+&__images-4{
+    background-image: url("../../photo/menus-4.jpg");
+    min-height: 30rem;
+    min-width: 600px;
+     background-size: cover;
+     background-position: center;
+     border-radius: 35px 35px 0 0;
+}
+.card__contenus{
+    position: relative;
+    background-color:white;
+    padding: 1rem;
+    border-radius:0 0 2rem 2rem;
+h3{
+    padding-top: 1rem;
+    font-size: 4rem;
+}
+    
+    p{
+        margin: 0.3rem;
+        font-size: 3rem;
+    
+    }
+    i{
+        font-size: 3rem;
+        position: absolute;
+        right: 1rem;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+    .fas{
+        color: transparent;
+        @include gradient;
+        -moz-background-clip: text;
+        background-clip: text;
+        -webkit-background-clip: text;
+        opacity: 0;
+        transition: all 100ms;
+    }
+    .fas:hover{
+        opacity: 1;
+        transform:translateY(-50%) scale(1.02);
+    }
+}
+
+  }
+}

@@ -3,12 +3,14 @@
   font-family: "Roboto", "Sans serif";
 }
 #explorez h2 {
-  font-size: 3.4rem;
+  font-size: 5rem;
   font-family: "Roboto", "Sans serif";
-  margin-top: 2rem;
+  margin-bottom: 2rem;
+  margin: 1rem;
 }
-#explorez p {
-  font-size: 2rem;
+#explorez .plus {
+  font-size: 0.8rem;
+  margin-bottom: 2rem;
 }
 #explorez button {
   padding: 2rem 3rem;
@@ -17,12 +19,60 @@
   font-weight: 800;
   color: white;
   border: none;
-  opacity: 1.01;
-  margin-top: 1rem;
-  box-shadow: 1px 3px 12px -2px #000;
+  margin-bottom: 10rem;
+  margin-top: 8rem;
+  background-image: linear-gradient(#ff79da, #9356dc);
+  box-shadow: 0 0 1rem #ffffff;
   transition: all 100ms;
 }
 #explorez button:hover {
   transform: scale(1.03);
-  background-image: linear-gradient(#ff79da, #9356dc);
+}
+
+.loader {
+  display: grid;
+  place-items: center;
+  background-color: #ffffff;
+  height: 100vh;
+  position: fixed;
+  inset: 0;
+  z-index: 1;
+  opacity: 0.5;
+  -webkit-animation: checkup 100ms 2s forwards;
+          animation: checkup 100ms 2s forwards;
+  transform-origin: top;
+}
+.loader i {
+  -webkit-animation: spin 5s;
+          animation: spin 5s;
+  border-top: 1px solid #ff79da;
+  color: #ff79da;
+}
+
+@-webkit-keyframes checkup {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+
+@keyframes checkup {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0);
+  }
+}
+@-webkit-keyframes spin {
+  0% {
+    transform: rotate(360deg);
+  }
+}
+@keyframes spin {
+  0% {
+    transform: rotate(360deg);
+  }
 }/*# sourceMappingURL=explorez.css.map */

@@ -1,18 +1,18 @@
-@use "../utils/zoom.scss";
-@use "../utils/shadow.scss";
-@use "../utils/gradient.scss";
+
 #explorez {
     text-align: center;
     font-family: "Roboto", "Sans serif";
   
-  h2 {
-    font-size: 3.4rem;
+  & h2 {
+    font-size: 5rem;
     font-family: "Roboto", "Sans serif";
-    margin-top: 2rem;
+    margin-bottom: 2rem;
+    margin: 1rem;
   
   }
-   p {
-    font-size: 2rem;
+   .plus {
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
    }
   
   button {
@@ -22,14 +22,50 @@
   font-weight: 800;
   color: white;
   border: none;
-  opacity: 1.01;
-  margin-top: 1rem;
-  /*box-shadow: 1px 3px 12px -2px #000;*/
-  @include box-shadow;
+  margin-bottom: 10rem;
+  margin-top: 8rem;
+  background-image: linear-gradient(#ff79da, #9356dc);
+  box-shadow: 0 0 1rem #ffffff; 
   transition: all 100ms;
   &:hover{
-  @include zoom-one;
-  @include gradient;
+  transform: scale(1.03);
   }
   }
   }
+
+  .loader{
+    display: grid;
+    place-items: center;
+    background-color:#ffffff;
+    height: 100vh;
+    position: fixed;
+    inset: 0;
+    z-index: 1;
+    opacity: 0.5;
+    animation: checkup 100ms  2s forwards;
+    transform-origin: top;
+
+    i{
+      animation: spin 5s;
+    border-top: 1px solid #ff79da;
+    color: #ff79da;
+    }
+  }
+
+
+@keyframes checkup {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(0);
+  }
+}
+  
+@keyframes spin {
+  0% {
+    transform: rotate(360deg);
+  }
+  
+}

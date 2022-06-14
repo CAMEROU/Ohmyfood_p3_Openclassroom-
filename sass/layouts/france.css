@@ -1,16 +1,24 @@
 .france {
   text-align: center;
-  padding: 1rem;
+  padding: 3rem;
   background-color: #f6f6f6;
   justify-content: center;
   display: flex;
+  margin-bottom: 2rem;
   align-items: center;
-  gap: 2.5rem;
   font-family: "Roboto", "Sans serif";
 }
 .france h2 {
   font-size: 3rem;
+  margin-left: 10rem;
 }
-.france i {
+
+.fa-location-dot {
   font-size: 3rem;
+  margin-right: -9rem;
+}
+
+.plus {
+  padding: 0 1rem;
+  margin: 1rem;
 }/*# sourceMappingURL=france.css.map */

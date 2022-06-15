@@ -35,7 +35,7 @@
   margin-bottom: 3rem;
 }
 .menus .card__images {
-  background-image: url("../../photo/menus-1.jpg");
+  background-image: url("./photo/menus-1.jpg");
   min-height: 30rem;
   min-width: 600px;
   background-size: cover;
@@ -43,7 +43,7 @@
   border-radius: 35px 35px 0 0;
 }
 .menus .card__images-2 {
-  background-image: url("../../photo/menus-2.jpg");
+  background-image: url("./photo/menus-2.jpg");
   min-height: 30rem;
   min-width: 600px;
   background-size: cover;
@@ -51,7 +51,7 @@
   border-radius: 35px 35px 0 0;
 }
 .menus .card__images-3 {
-  background-image: url("../../photo/menus-3.jpg");
+  background-image: url("./photo/menus-3.jpg");
   min-height: 30rem;
   min-width: 600px;
   background-size: cover;
@@ -59,7 +59,7 @@
   border-radius: 35px 35px 0 0;
 }
 .menus .card__images-4 {
-  background-image: url("../../photo/menus-4.jpg");
+  background-image: url("./photo/menus-4.jpg");
   min-height: 30rem;
   min-width: 600px;
   background-size: cover;

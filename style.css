@@ -378,18 +378,18 @@ footer .ensemble {
 footer .ensemble h2 {
   font-family: "Shrikhand";
   font-weight: 400;
-  font-size: 3rem;
+  font-size: 2rem;
   padding: 0 1rem;
-  margin-bottom: 5rem;
+  margin-bottom: 3rem;
 }
 footer .ensemble p {
-  font-size: 2.5rem;
+  font-size: 1.5rem;
   padding: 0 1rem;
-  margin: 1rem;
-  gap: 1rem;
+  margin: 0.5rem;
+  gap: 0.5rem;
 }
 footer .ensemble span {
-  padding: 0 2rem;
+  padding: 0 0.5rem;
 }
 
 @-webkit-keyframes nosAnimations {
@@ -678,8 +678,8 @@ h1 {
 #fooder h2 {
   font-family: "Shrikhand";
   font-weight: 400;
-  font-size: 1.8rem;
-  margin-bottom: 2rem;
+  font-size: 2rem;
+  margin-bottom: 3rem;
   margin-right: -2rem;
   padding: 0 0rem;
 }
@@ -690,7 +690,7 @@ h1 {
 #fooder ul li {
   margin-left: -2.5rem;
   margin-bottom: 1rem;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 #fooder a {
   margin-right: -2rem;

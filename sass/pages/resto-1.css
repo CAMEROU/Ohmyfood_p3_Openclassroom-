@@ -283,8 +283,8 @@ h1 {
 #fooder h2 {
   font-family: "Shrikhand";
   font-weight: 400;
-  font-size: 1.8rem;
-  margin-bottom: 2rem;
+  font-size: 2rem;
+  margin-bottom: 3rem;
   margin-right: -2rem;
   padding: 0 0rem;
 }
@@ -295,7 +295,7 @@ h1 {
 #fooder ul li {
   margin-left: -2.5rem;
   margin-bottom: 1rem;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
 }
 #fooder a {
   margin-right: -2rem;

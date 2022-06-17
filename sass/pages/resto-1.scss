@@ -3,7 +3,7 @@
 
 @keyframes nosAnimations {
     0%{
-      transform:rotate(-270deg);
+      transform:rotate(-360deg);
     }
     100%{
       transform: rotate(0);
@@ -22,7 +22,7 @@
 
 .palette img{
     width: 100%;
-    height: 70vh;
+    height: 74vh;
     display: block;
     object-fit: cover;
     object-position: center;
@@ -177,11 +177,11 @@ font-weight: 900;
                 justify-content: center;
                 place-items: center;
                 background-color: white;
-                color: aqua;
+                color: #99e2d0;
                 width: 2rem;
                 height: 2rem;
                 border-radius: 2rem;
-            animation: nosAnimations 6s;
+            animation: nosAnimations 8s;
 
             }
         }
@@ -240,15 +240,21 @@ button {
             .ensembles{
                 margin-left: auto;
                 padding: 0 0rem;
-    
+  
             }
             ul li {
-                margin-left: -1rem;
+                margin-left: -2.5rem;
                 margin-bottom: 1rem; 
                 font-size: 1.3rem;
-
+            
             }
             a{
                 margin-right: -2rem;
             }
+            .fa-utensils,
+            .fa-handshake-angle{
+                gap: 2rem;
+                margin-right: 0.5rem;
+            }
+
         }

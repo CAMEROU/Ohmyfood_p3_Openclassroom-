@@ -1,34 +1,47 @@
 
-#explorez {
+ .wrap{
     text-align: center;
     font-family: "Roboto", "Sans serif";
+
+    .plus{
+      font-size: 1.8rem;
+    }
   
-  & h2 {
-    font-size: 5rem;
+   .reservation {
+    font-size:5rem;
     font-family: "Roboto", "Sans serif";
     margin-bottom: 2rem;
     margin: 1rem;
   
+    @media (max-width:1000px) {
+      .reservation{
+        font-size: 2rem;
+      }
+
+    }
+  
   }
-   .plus {
-    margin-bottom: 2rem;
-   /* font-size: 0.9rem;*/
-   }
+
+  #decouvert{
+    font-size: 1.5rem;
+  }
+
   
   button {
   padding: 2rem 3rem;
-  font-size: 2.5rem;
+  font-size: 2rem;
   border-radius: 4rem;
-  font-weight: 800;
+  font-weight: 400;
   color: white;
   border: none;
   margin-bottom: 10rem;
-  margin-top: 8rem;
+  margin-top: 6rem;
   background-image: linear-gradient(#ff79da, #9356dc);
-  box-shadow: 0 0 1rem #ffffff; 
+  box-shadow: 0 0 12px #ffffff; 
   transition: all 100ms;
   &:hover{
-  transform: scale(1.03);
+    transform: scale(1.03);
+    opacity: calc(0.7);
   }
   }
   }

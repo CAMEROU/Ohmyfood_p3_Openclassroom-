@@ -1,28 +1,54 @@
-
 footer{
-    padding: 3rem 4rem;
-    background-color:black;
-    color: white;
+    background-color: rgb(46, 36, 36);
+    color: #ffffff;
+    padding: 2rem  3rem;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
 
-    .ensemble{
-        padding: 0 1rem;
 
-    h2{
-        font-family: "Shrikhand";
-        font-weight: 400;
-        font-size: 2rem; 
-        padding: 0 1rem;  
-        margin-bottom: 3rem;
-    }
-    p{
-        font-size: 1.5rem;
-        padding: 0  1rem;
-        margin: 0.5rem;
-        gap: 0.5rem;
-    }
-    span{
-        padding: 0 0.5rem;
+    .ensem{
+        margin-right: auto;
+        margin-left: 4rem;
 
+        & h5{
+            font-family: "Shrikhand";
+            font-weight: 500;
+            margin-bottom: 3rem;
+            font-size: 3.5rem;
         
+        }
     }
-}}
+    .fa-utensils,
+    .fa-handshake-angle{
+        font-size: 2.5rem;
+        margin-left: -1rem;
+        @media (max-width:1000px) {
+            &>*   {
+    font-size: 0.8rem;
+                }
+            }
+    }
+
+    .cinq{
+        font-size: 2.5rem;
+        margin-left: 2rem;
+        @media (max-width:1000px) {
+        .cinq    {
+font-size: 0.8rem;
+            }
+        }
+        }
+    
+
+    .trois{
+        font-size:2.5rem;
+        @media (max-width:1000px) {
+            trois   {
+    font-size: 0.8rem;
+                }
+            }
+       
+    }
+}

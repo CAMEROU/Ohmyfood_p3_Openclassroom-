@@ -1,11 +1,11 @@
-#food {
+header {
   font-family: "Shrikhand", "cursive";
   text-align: center;
   position: relative;
 }
 
-#food h1 {
-  font-size: 2.5rem;
+header #ohmy {
+  font-size: 4rem;
 }
 
 .gris {

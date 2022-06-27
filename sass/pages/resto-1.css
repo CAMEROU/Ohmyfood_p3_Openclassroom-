@@ -1,33 +1,41 @@
 @-webkit-keyframes nosAnimations {
   0% {
-    transform: rotate(-360deg);
+    transform: rotate(-270deg);
+    opacity: 0.7;
   }
   100% {
     transform: rotate(0);
+    opacity: 1;
   }
 }
 @keyframes nosAnimations {
   0% {
-    transform: rotate(-360deg);
+    transform: rotate(-270deg);
+    opacity: 0.7;
   }
   100% {
     transform: rotate(0);
+    opacity: 1;
   }
 }
 @-webkit-keyframes checks {
   0% {
     transform: translateY(50%);
+    opacity: 0.7;
   }
   100% {
     transform: translateY(0);
+    opacity: 1;
   }
 }
 @keyframes checks {
   0% {
     transform: translateY(50%);
+    opacity: 0.7;
   }
   100% {
     transform: translateY(0);
+    opacity: 1;
   }
 }
 .palette img {
@@ -40,9 +48,14 @@
      object-position: center;
 }
 
+#debut {
+  background-color: #f6f6f6;
+}
+
 #food {
   position: relative;
   padding: 0 1rem;
+  background-color: white;
 }
 
 .fa-arrow-left:hover {
@@ -106,107 +119,104 @@ h1 {
   transform: translateY(-50%) scale(1.02);
 }
 
-/* menu grid */
 .resto-main {
   background-color: #f6f6f6;
   padding: 0 1rem;
+  margin-top: -3rem;
 }
 
-.menus_grid {
-  background-color: #f6f6f6;
-  display: grid;
-  flex-shrink: 0;
+.menus-grid {
+  display: flex;
   gap: 1rem;
-  grid-template-columns: 3fr;
+  flex-direction: column;
 }
 @media (max-width: 1000px) {
-  .menus_grid {
-    grid-template-columns: 1fr;
+  .menus-grid {
+    flex-direction: column;
   }
 }
-.menus_grid .menus-category {
-  overflow: hidden;
-  background-color: white;
-  border-radius: 1rem;
-  box-shadow: 2px 1px 8px -3px rgb(83, 80, 80);
-  -webkit-animation: checks 1s;
-          animation: checks 1s;
-  -webkit-animation-fill-mode: both;
-          animation-fill-mode: both;
-}
-.menus_grid .menus-category:nth-child(1) {
-  -webkit-animation-delay: 100ms;
-          animation-delay: 100ms;
-}
-.menus_grid .menus-category:nth-child(2) {
-  -webkit-animation-delay: 200ms;
-          animation-delay: 200ms;
-}
-.menus_grid .menus-category:nth-child(3) {
-  -webkit-animation-delay: 300ms;
-          animation-delay: 300ms;
-}
-.menus_grid .menus-category:nth-child(4) {
-  -webkit-animation-delay: 400ms;
-          animation-delay: 400ms;
-}
-.menus_grid .menus-category:nth-child(5) {
-  -webkit-animation-delay: 500ms;
-          animation-delay: 500ms;
-}
-.menus_grid .menus-category:nth-child(6) {
-  -webkit-animation-delay: 600ms;
-          animation-delay: 600ms;
-}
-.menus_grid .menus-category:nth-child(7) {
-  -webkit-animation-delay: 700ms;
-          animation-delay: 700ms;
-}
-.menus_grid .menus-category:nth-child(8) {
-  -webkit-animation-delay: 800ms;
-          animation-delay: 800ms;
-}
-.menus_grid .menus-category:nth-child(9) {
-  -webkit-animation-delay: 900ms;
-          animation-delay: 900ms;
-}
-.menus_grid .menus-category:nth-child(10) {
-  -webkit-animation-delay: 1000ms;
-          animation-delay: 1000ms;
-}
-.menus_grid .menus-category:nth-child(11) {
-  -webkit-animation-delay: 1100ms;
-          animation-delay: 1100ms;
-}
-.menus_grid .menus-category:nth-child(12) {
-  -webkit-animation-delay: 1200ms;
-          animation-delay: 1200ms;
-}
-.menus_grid h4, .menus_grid p {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
-.menus_grid h3 {
+.menus-grid h3 {
   position: relative;
   text-transform: uppercase;
   font-weight: 400;
   margin-bottom: 1rem;
+  background-color: #f6f6f6;
+  font-size: 1rem;
 }
-.menus_grid h3::after {
+.menus-grid h3::after {
   content: "";
   height: 0.5rem;
   width: 2.8rem;
   background-color: #99e2d0;
   position: absolute;
-  top: 1.5rem;
+  top: 1.2rem;
   left: 0;
 }
-.menus_grid .menu_item {
+.menus-grid .menu-class {
+  background-color: white;
+  box-shadow: 2px 1px 8px -3px rgb(83, 80, 80);
+  border-radius: 1rem;
+  overflow: hidden;
+  -webkit-animation: checks 1s;
+          animation: checks 1s;
+  -webkit-animation-fill-mode: both;
+          animation-fill-mode: both;
+}
+.menus-grid .menu-class:nth-child(1) {
+  -webkit-animation-delay: 100ms;
+          animation-delay: 100ms;
+}
+.menus-grid .menu-class:nth-child(2) {
+  -webkit-animation-delay: 200ms;
+          animation-delay: 200ms;
+}
+.menus-grid .menu-class:nth-child(3) {
+  -webkit-animation-delay: 300ms;
+          animation-delay: 300ms;
+}
+.menus-grid .menu-class:nth-child(4) {
+  -webkit-animation-delay: 400ms;
+          animation-delay: 400ms;
+}
+.menus-grid .menu-class:nth-child(5) {
+  -webkit-animation-delay: 500ms;
+          animation-delay: 500ms;
+}
+.menus-grid .menu-class:nth-child(6) {
+  -webkit-animation-delay: 600ms;
+          animation-delay: 600ms;
+}
+.menus-grid .menu-class:nth-child(7) {
+  -webkit-animation-delay: 700ms;
+          animation-delay: 700ms;
+}
+.menus-grid .menu-class:nth-child(8) {
+  -webkit-animation-delay: 800ms;
+          animation-delay: 800ms;
+}
+.menus-grid .menu-class:nth-child(9) {
+  -webkit-animation-delay: 900ms;
+          animation-delay: 900ms;
+}
+.menus-grid .menu-class:nth-child(10) {
+  -webkit-animation-delay: 1000ms;
+          animation-delay: 1000ms;
+}
+.menus-grid .menu-class:nth-child(11) {
+  -webkit-animation-delay: 1100ms;
+          animation-delay: 1100ms;
+}
+.menus-grid .menu-class:nth-child(12) {
+  -webkit-animation-delay: 1200ms;
+          animation-delay: 1200ms;
+}
+.menus-grid .menu-item {
   display: flex;
   overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
-.menus_grid .menu_item .menu-prix {
+.menus-grid .menu-item .menu-prix {
   display: flex;
   justify-content: flex-end;
   align-items: flex-end;
@@ -214,38 +224,56 @@ h1 {
   margin-left: auto;
   font-weight: 900;
 }
-.menus_grid .menu_item .menu-descpt {
+.menus-grid .menu-item .descrpt {
   padding: 1rem;
   overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
 }
-.menus_grid .menu_item .check {
+.menus-grid .menu-item .descrpt h4 {
+  font-size: 0.8rem;
+  font-weight: 900;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.menus-grid .menu-item .descrpt p {
+  font-size: 0.8rem;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.menus-grid .menu-item .check {
   display: flex;
+  align-items: center;
   justify-content: center;
-  place-items: center;
-  flex-shrink: 0;
   background-color: #99e2d0;
-  margin-right: -3.5rem;
-  width: 3.5rem;
+  margin-right: -4rem;
+  width: 4rem;
   border-radius: 0 1rem 1rem 0;
   transition: margin-right 0.5s;
 }
-.menus_grid .menu_item .check i {
+.menus-grid .menu-item .check i {
   display: flex;
   justify-content: center;
-  place-items: center;
-  background-color: white;
+  align-items: center;
+  background-color: #ffffff;
   color: #99e2d0;
-  width: 2rem;
-  height: 2rem;
-  border-radius: 2rem;
-  -webkit-animation: nosAnimations 8s;
-          animation: nosAnimations 8s;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 1.5rem;
 }
-.menus_grid .menu_item:hover {
+.menus-grid .menu-item:hover {
   cursor: pointer;
 }
-.menus_grid .menu_item:hover .check {
+.menus-grid .menu-item:hover .check {
   margin-right: 0;
+}
+.menus-grid .menu-item:hover i {
+  animation: nosAnimations 3s ease;
+  -webkit-animation: nosAnimations 3s ease;
+  -moz-animation: nosanimations 3s ease;
+  -o-animation: nosAnimations 3s ease;
 }
 
 /* commande */
@@ -266,42 +294,43 @@ h1 {
   border: none;
   margin-top: 5rem;
   background-image: linear-gradient(#ff79da, #9356dc);
-  box-shadow: 0 0 1rem #ddd;
+  box-shadow: 0 0 12px #ddd;
   transition: all 100ms;
 }
 #commande button:hover {
   transform: scale(1.03);
+  opacity: 0.8;
 }
 
 /* footer */
 #fooder {
+  background-color: rgb(46, 36, 36);
+  color: #ffffff;
+  padding: 1rem 0;
   margin-right: auto;
-  background-color: black;
-  color: white;
-  padding: 1rem;
+  /*  p{
+        padding: 0.2rem;
+    }*/
 }
-#fooder h2 {
+#fooder h5 {
   font-family: "Shrikhand";
-  font-weight: 400;
-  font-size: 2rem;
-  margin-bottom: 3rem;
-  margin-right: -2rem;
-  padding: 0 0rem;
-}
-#fooder .ensembles {
-  margin-left: auto;
-  padding: 0 0rem;
-}
-#fooder ul li {
-  margin-left: -2.5rem;
+  font-weight: 500;
   margin-bottom: 1rem;
   font-size: 1.5rem;
 }
-#fooder a {
-  margin-right: -2rem;
+#fooder .ensembles {
+  margin-left: 2rem;
+  font-size: 0.8rem;
 }
 #fooder .fa-utensils,
 #fooder .fa-handshake-angle {
-  gap: 2rem;
-  margin-right: 0.5rem;
+  font-size: 0.8rem;
+  margin-left: 0rem;
+}
+#fooder .deux {
+  font-size: 0.8rem;
+  margin-left: 0.2rem;
+}
+#fooder .une {
+  font-size: 0.8rem;
 }/*# sourceMappingURL=resto-1.css.map */

@@ -2,6 +2,7 @@ header {
   font-family: "Shrikhand", "cursive";
   text-align: center;
   position: relative;
+  background-color: white;
 }
 
 header #ohmy {
@@ -9,5 +10,5 @@ header #ohmy {
 }
 
 .gris {
-  background-color: #f6f6f6;
+  /* background-color:  #f6f6f6;*/
 }/*# sourceMappingURL=header.css.map */

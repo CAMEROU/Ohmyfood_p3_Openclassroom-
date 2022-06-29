@@ -12,6 +12,7 @@ body {
 
 main {
   padding: 0 7rem;
+  background-color: #f6f6f6;
 }
 @media (max-width: 1000px) {
   main {

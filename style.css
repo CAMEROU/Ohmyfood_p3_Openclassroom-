@@ -12,6 +12,7 @@ body {
 
 main {
   padding: 0 7rem;
+  background-color: #f6f6f6;
 }
 @media (max-width: 1000px) {
   main {
@@ -51,6 +52,7 @@ header {
   font-family: "Shrikhand", "cursive";
   text-align: center;
   position: relative;
+  background-color: white;
 }
 
 header #ohmy {
@@ -58,6 +60,10 @@ header #ohmy {
 }
 
 .gris {
+  /* background-color:  #f6f6f6;*/
+}
+
+.bio {
   background-color: #f6f6f6;
 }
 
@@ -65,10 +71,11 @@ header #ohmy {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1.8rem;
+  gap: 1.5rem;
   background-color: #ddd;
   text-align: center;
   padding: 1rem;
+  margin-bottom: 6rem;
 }
 
 .fa-location-dot {
@@ -107,8 +114,8 @@ header #ohmy {
   font-weight: 400;
   color: white;
   border: none;
-  margin-bottom: 6rem;
-  margin-top: 6rem;
+  margin-bottom: 13rem;
+  margin-top: 10rem;
   background-image: linear-gradient(#ff79da, #9356dc);
   box-shadow: 0 0 12px #ffffff;
   transition: all 100ms;
@@ -167,6 +174,7 @@ header #ohmy {
 }
 .indication {
   margin-bottom: 3rem;
+  margin-top: -6rem;
   counter-reset: steps;
   background-color: white;
   padding: 0 7rem;
@@ -178,8 +186,9 @@ header #ohmy {
 }
 .indication ol {
   display: flex;
-  gap: 2rem;
+  gap: 3rem;
   flex-wrap: wrap;
+  margin-top: 3rem;
 }
 @media (max-width: 800px) {
   .indication .indication ol {
@@ -193,7 +202,7 @@ header #ohmy {
   list-style-type: none;
   background-color: #f6f6f6;
   border-radius: 3rem;
-  box-shadow: 0 0 0 1px rgba(221, 221, 221, 0.8666666667);
+  box-shadow: 0 0 0 1px rgba(202, 200, 200, 0.867);
   padding: 3.5rem 3.5rem;
   flex-grow: 1;
 }
@@ -232,19 +241,23 @@ header #ohmy {
 }
 .indication h2 {
   font-size: 2.5rem;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
   font-family: "Roboto";
-  margin-top: 8rem;
+}
+
+.bio {
+  background-color: #f6f6f6;
 }
 
 #ville {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1.8rem;
+  gap: 1.5rem;
   background-color: #ddd;
   text-align: center;
   padding: 1rem;
+  margin-bottom: 6rem;
 }
 
 .fa-location-dot {
@@ -298,32 +311,32 @@ header #ohmy {
 }
 .menus .card__images {
   background-image: url("./photo/menus-1.jpg");
-  min-height: 38rem;
-  min-width: 1200px;
+  min-height: 35rem;
+  min-width: 1100px;
   background-size: cover;
   background-position: center;
   border-radius: 35px 35px 0 0;
 }
 .menus .card__images-2 {
   background-image: url("./photo/menus-2.jpg");
-  min-height: 38rem;
-  min-width: 1200px;
+  min-height: 35rem;
+  min-width: 1100px;
   background-size: cover;
   background-position: center;
   border-radius: 35px 35px 0 0;
 }
 .menus .card__images-3 {
   background-image: url("./photo/menus-3.jpg");
-  min-height: 38rem;
-  min-width: 1200px;
+  min-height: 35rem;
+  min-width: 1100px;
   background-size: cover;
   background-position: center;
   border-radius: 35px 35px 0 0;
 }
 .menus .card__images-4 {
   background-image: url("./photo/menus-4.jpg");
-  min-height: 38rem;
-  min-width: 1200px;
+  min-height: 35rem;
+  min-width: 1100px;
   background-size: cover;
   background-position: center;
   border-radius: 35px 35px 0 0;

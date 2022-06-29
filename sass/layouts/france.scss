@@ -1,13 +1,16 @@
-
+.bio{
+  background-color: #f6f6f6;
+}
 
      #ville{
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 1.8rem;
+      gap: 1.5rem;
       background-color: #ddd;
       text-align: center;
       padding: 1rem;
+      margin-bottom: 6rem;
     }
 
 .fa-location-dot{

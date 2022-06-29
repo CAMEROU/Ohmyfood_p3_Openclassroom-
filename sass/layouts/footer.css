@@ -1,7 +1,8 @@
 footer {
   background-color: rgb(46, 36, 36);
   color: #ffffff;
-  padding: 2rem 3rem;
+  padding: 1rem 2rem;
+  height: 36rem;
   margin-right: auto;
   display: flex;
   flex-direction: column;
@@ -15,7 +16,8 @@ footer .ensem h5 {
   font-family: "Shrikhand";
   font-weight: 500;
   margin-bottom: 3rem;
-  font-size: 3.5rem;
+  font-size: 3.8rem;
+  padding: 1rem;
 }
 footer .fa-utensils,
 footer .fa-handshake-angle {
@@ -28,9 +30,13 @@ footer .fa-handshake-angle > * {
     font-size: 0.8rem;
   }
 }
+footer p,
+footer a {
+  padding: 1rem;
+}
 footer .cinq {
   font-size: 2.5rem;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 @media (max-width: 1000px) {
   footer .cinq .cinq {

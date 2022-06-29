@@ -1,30 +1,17 @@
-.belleville {
+#ville {
   display: flex;
-  justify-content: center;
-  padding: 2rem;
-  background-color: #ddd;
-  gap: 1rem;
-  margin-bottom: 8rem;
-  margin-top: 2rem;
   align-items: center;
-  font-family: "Roboto", "Sans serif";
-  /*{
-        font-size: 3rem;
-        margin-right: -9rem;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #ddd;
+  text-align: center;
+  padding: 1rem;
+}
 
-      }*/
+.fa-location-dot {
+  font-size: 2.7rem;
 }
-.belleville .fa-location-dot {
-  font-size: 3rem;
-  margin-left: 5rem;
-}
-.belleville #paris {
-  font-size: 3rem;
-  font-family: "Roboto";
-  margin-top: 2rem;
-  margin-right: 10rem;
-}
-.belleville .plus {
-  padding: 0 1rem;
-  margin: 1rem;
+
+.paris {
+  font-size: 3.5rem;
 }/*# sourceMappingURL=france.css.map */

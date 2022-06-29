@@ -4,12 +4,12 @@
 @keyframes nosAnimations {
     0% {
       transform:rotate(-270deg);
-      opacity: 0.7;
+      
       
     }
     100%{
       transform: rotate(0);
-      opacity: 1;
+      
     
     }
   }
@@ -17,7 +17,7 @@
         @keyframes checks {
             0% {
                 transform: translateY(50%);
-                opacity: 0.7;
+                opacity: 0;
                 
             }
             100% {
@@ -124,7 +124,7 @@ flex-direction: column;
         font-size: 1rem;
         &::after {
             content: "";
-            height: 0.5rem;
+            height: 0.2rem;
             width: 2.8rem;
             background-color: #99e2d0;
             position: absolute;
@@ -209,10 +209,10 @@ animation-fill-mode: both;
            }
         }
        &:hover  i{
-    animation: nosAnimations 3s ease;
-    -webkit-animation: nosAnimations 3s ease;
-    -moz-animation: nosanimations 3s ease;
-    -o-animation: nosAnimations 3s ease;
+    animation: nosAnimations 1s ease-in-out ;
+    -webkit-animation: nosAnimations 1s ease-in-out ;
+    -moz-animation: nosanimations 1s ease-in-out ;
+    -o-animation: nosAnimations 1s ease-in-out ;
 }
 }
 }
@@ -259,7 +259,7 @@ button {
     }
     .ensembles{
         margin-left: 2rem;
-        font-size: 0.8rem;  
+        font-size: 0.8rem; 
     }
     .fa-utensils,
     .fa-handshake-angle{
@@ -274,7 +274,7 @@ button {
     font-size: 0.8rem;
 
 }
-  /*  p{
+    p{
         padding: 0.2rem;
-    }*/
+    }
 }

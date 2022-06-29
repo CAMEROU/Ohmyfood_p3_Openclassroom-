@@ -24,7 +24,7 @@ main {
 }
 
 h1, h2 h3,
-h4, h5, h6, p {
+h4, h5, h6, p, .cite {
   padding: 0;
   margin: 0;
 }
@@ -61,35 +61,22 @@ header #ohmy {
   background-color: #f6f6f6;
 }
 
-.belleville {
+#ville {
   display: flex;
-  justify-content: center;
-  padding: 2rem;
-  background-color: #ddd;
-  gap: 1rem;
-  margin-bottom: 8rem;
-  margin-top: 2rem;
   align-items: center;
-  font-family: "Roboto", "Sans serif";
-  /*{
-        font-size: 3rem;
-        margin-right: -9rem;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #ddd;
+  text-align: center;
+  padding: 1rem;
+}
 
-      }*/
+.fa-location-dot {
+  font-size: 2.7rem;
 }
-.belleville .fa-location-dot {
-  font-size: 3rem;
-  margin-left: 5rem;
-}
-.belleville #paris {
-  font-size: 3rem;
-  font-family: "Roboto";
-  margin-top: 2rem;
-  margin-right: 10rem;
-}
-.belleville .plus {
-  padding: 0 1rem;
-  margin: 1rem;
+
+.paris {
+  font-size: 3.5rem;
 }
 
 .wrap {
@@ -97,7 +84,7 @@ header #ohmy {
   font-family: "Roboto", "Sans serif";
 }
 .wrap .plus {
-  font-size: 1.8rem;
+  font-size: 1.9rem;
 }
 .wrap .reservation {
   font-size: 5rem;
@@ -228,11 +215,11 @@ header #ohmy {
   border-radius: 50%;
 }
 .indication .choix {
-  font-size: 3.6rem;
+  font-size: 3rem;
   margin-right: 2.6rem;
 }
 .indication .fa-solid {
-  font-size: 3.6rem;
+  font-size: 3rem;
   margin-right: 2.5rem;
   color: gray;
 }
@@ -243,35 +230,22 @@ header #ohmy {
   margin-top: 8rem;
 }
 
-.belleville {
+#ville {
   display: flex;
-  justify-content: center;
-  padding: 2rem;
-  background-color: #ddd;
-  gap: 1rem;
-  margin-bottom: 8rem;
-  margin-top: 2rem;
   align-items: center;
-  font-family: "Roboto", "Sans serif";
-  /*{
-        font-size: 3rem;
-        margin-right: -9rem;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #ddd;
+  text-align: center;
+  padding: 1rem;
+}
 
-      }*/
+.fa-location-dot {
+  font-size: 2.7rem;
 }
-.belleville .fa-location-dot {
-  font-size: 3rem;
-  margin-left: 5rem;
-}
-.belleville #paris {
-  font-size: 3rem;
-  font-family: "Roboto";
-  margin-top: 2rem;
-  margin-right: 10rem;
-}
-.belleville .plus {
-  padding: 0 1rem;
-  margin: 1rem;
+
+.paris {
+  font-size: 3.5rem;
 }
 
 .menus {
@@ -279,7 +253,7 @@ header #ohmy {
   background-color: #f6f6f6;
   margin-bottom: 5rem;
 }
-.menus h2 {
+.menus h3 {
   margin-bottom: 2rem;
   padding: 2rem 0;
   font-size: 2rem;
@@ -300,7 +274,7 @@ header #ohmy {
   top: 2rem;
   height: 5rem;
   font-size: 2rem;
-  border-radius: 1rem;
+  border-radius: 0.5rem;
   width: 13rem;
   background-color: #99E2D0;
   color: darkgreen;
@@ -313,7 +287,7 @@ header #ohmy {
 }
 .menus .card__images {
   background-image: url("./photo/menus-1.jpg");
-  min-height: 30rem;
+  min-height: 38rem;
   min-width: 1000px;
   background-size: cover;
   background-position: center;
@@ -321,7 +295,7 @@ header #ohmy {
 }
 .menus .card__images-2 {
   background-image: url("./photo/menus-2.jpg");
-  min-height: 30rem;
+  min-height: 38rem;
   min-width: 1000px;
   background-size: cover;
   background-position: center;
@@ -329,7 +303,7 @@ header #ohmy {
 }
 .menus .card__images-3 {
   background-image: url("./photo/menus-3.jpg");
-  min-height: 30rem;
+  min-height: 38rem;
   min-width: 1000px;
   background-size: cover;
   background-position: center;
@@ -337,7 +311,7 @@ header #ohmy {
 }
 .menus .card__images-4 {
   background-image: url("./photo/menus-4.jpg");
-  min-height: 30rem;
+  min-height: 38rem;
   min-width: 1000px;
   background-size: cover;
   background-position: center;
@@ -348,22 +322,23 @@ header #ohmy {
   background-color: white;
   padding: 1rem;
   border-radius: 0 0 2rem 2rem;
+  /*h4{
+      font-size: 2rem;
+  }*/
 }
-.menus .card .card__contenus h3 {
+.menus .card .card__contenus h4 {
   padding-top: 1rem;
   font-size: 3rem;
 }
 .menus .card .card__contenus .cite {
-  margin: 0.3rem;
+  margin: 0;
+  padding: 0;
   font-size: 3rem;
-}
-.menus .card .card__contenus h4 {
-  font-size: 2rem;
 }
 .menus .card .card__contenus i {
-  font-size: 3rem;
+  font-size: 3.5rem;
   position: absolute;
-  right: 1rem;
+  right: 3rem;
   top: 50%;
   transform: translateY(-50%);
 }
@@ -384,7 +359,8 @@ header #ohmy {
 footer {
   background-color: rgb(46, 36, 36);
   color: #ffffff;
-  padding: 2rem 3rem;
+  padding: 1rem 2rem;
+  height: 36rem;
   margin-right: auto;
   display: flex;
   flex-direction: column;
@@ -398,7 +374,8 @@ footer .ensem h5 {
   font-family: "Shrikhand";
   font-weight: 500;
   margin-bottom: 3rem;
-  font-size: 3.5rem;
+  font-size: 3.8rem;
+  padding: 1rem;
 }
 footer .fa-utensils,
 footer .fa-handshake-angle {
@@ -411,9 +388,13 @@ footer .fa-handshake-angle > * {
     font-size: 0.8rem;
   }
 }
+footer p,
+footer a {
+  padding: 1rem;
+}
 footer .cinq {
   font-size: 2.5rem;
-  margin-left: 2rem;
+  margin-left: 1rem;
 }
 @media (max-width: 1000px) {
   footer .cinq .cinq {
@@ -432,28 +413,24 @@ footer .trois {
 @-webkit-keyframes nosAnimations {
   0% {
     transform: rotate(-270deg);
-    opacity: 0.7;
   }
   100% {
     transform: rotate(0);
-    opacity: 1;
   }
 }
 
 @keyframes nosAnimations {
   0% {
     transform: rotate(-270deg);
-    opacity: 0.7;
   }
   100% {
     transform: rotate(0);
-    opacity: 1;
   }
 }
 @-webkit-keyframes checks {
   0% {
     transform: translateY(50%);
-    opacity: 0.7;
+    opacity: 0;
   }
   100% {
     transform: translateY(0);
@@ -463,7 +440,7 @@ footer .trois {
 @keyframes checks {
   0% {
     transform: translateY(50%);
-    opacity: 0.7;
+    opacity: 0;
   }
   100% {
     transform: translateY(0);
@@ -577,7 +554,7 @@ h1 {
 }
 .menus-grid h3::after {
   content: "";
-  height: 0.5rem;
+  height: 0.2rem;
   width: 2.8rem;
   background-color: #99e2d0;
   position: absolute;
@@ -702,10 +679,10 @@ h1 {
   margin-right: 0;
 }
 .menus-grid .menu-item:hover i {
-  animation: nosAnimations 3s ease;
-  -webkit-animation: nosAnimations 3s ease;
-  -moz-animation: nosanimations 3s ease;
-  -o-animation: nosAnimations 3s ease;
+  animation: nosAnimations 1s ease-in-out;
+  -webkit-animation: nosAnimations 1s ease-in-out;
+  -moz-animation: nosanimations 1s ease-in-out;
+  -o-animation: nosAnimations 1s ease-in-out;
 }
 
 /* commande */
@@ -740,9 +717,6 @@ h1 {
   color: #ffffff;
   padding: 1rem 0;
   margin-right: auto;
-  /*  p{
-        padding: 0.2rem;
-    }*/
 }
 #fooder h5 {
   font-family: "Shrikhand";
@@ -765,4 +739,7 @@ h1 {
 }
 #fooder .une {
   font-size: 0.8rem;
+}
+#fooder p {
+  padding: 0.2rem;
 }/*# sourceMappingURL=style.css.map */

@@ -1,7 +1,6 @@
 @import "../utils/mixins.scss";
 .indication {
     margin-bottom: 3rem;
-    margin-top: -6rem;
     counter-reset: steps;
     background-color: white;
     padding: 0 7rem;
@@ -13,7 +12,7 @@
     display: flex;
     gap: 3rem;
     flex-wrap: wrap;
-    margin-top: 3rem;
+
   }
   
   @media (max-width: 800px) {

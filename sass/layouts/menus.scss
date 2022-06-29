@@ -1,6 +1,10 @@
 @import "../utils/mixins.scss";
 @import "../utils/mixins.scss";
 
+
+.bio{
+    background-color: #f6f6f6;
+}
 .menus{
     font-family: "Raleway", sans-serif;
     background-color: #f6f6f6;
@@ -41,7 +45,7 @@ gap: 3rem;
 &__images{
     background-image: url("./photo/menus-1.jpg");
     min-height: 38rem;
-    min-width: 1000px;
+    min-width: 1200px;
      background-size: cover;
      background-position: center;
      border-radius: 35px 35px 0 0;
@@ -50,7 +54,7 @@ gap: 3rem;
 &__images-2{
     background-image: url("./photo/menus-2.jpg");
     min-height: 38rem;
-    min-width: 1000px;
+    min-width: 1200px;
     background-size: cover;
      background-position: center;
      border-radius: 35px 35px 0 0;
@@ -58,7 +62,7 @@ gap: 3rem;
 &__images-3{
     background-image: url("./photo/menus-3.jpg");
     min-height: 38rem;
-    min-width: 1000px;
+    min-width: 1200px;
    background-size: cover;
     background-position: center ;
      border-radius: 35px 35px 0 0;
@@ -66,7 +70,7 @@ gap: 3rem;
 &__images-4{
     background-image: url("./photo/menus-4.jpg");
     min-height: 38rem;
-    min-width: 1000px;
+    min-width: 1200px;
      background-size: cover;
      background-position: center;
      border-radius: 35px 35px 0 0;

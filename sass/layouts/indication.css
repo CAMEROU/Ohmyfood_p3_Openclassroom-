@@ -1,6 +1,13 @@
 .indication {
   margin-bottom: 3rem;
   counter-reset: steps;
+  background-color: white;
+  padding: 0 7rem;
+}
+@media (max-width: 1000px) {
+  .indication {
+    padding: 0 1rem;
+  }
 }
 .indication ol {
   display: flex;

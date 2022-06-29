@@ -107,7 +107,7 @@ header #ohmy {
   font-weight: 400;
   color: white;
   border: none;
-  margin-bottom: 10rem;
+  margin-bottom: 6rem;
   margin-top: 6rem;
   background-image: linear-gradient(#ff79da, #9356dc);
   box-shadow: 0 0 12px #ffffff;
@@ -168,6 +168,13 @@ header #ohmy {
 .indication {
   margin-bottom: 3rem;
   counter-reset: steps;
+  background-color: white;
+  padding: 0 7rem;
+}
+@media (max-width: 1000px) {
+  .indication {
+    padding: 0 1rem;
+  }
 }
 .indication ol {
   display: flex;
@@ -248,6 +255,10 @@ header #ohmy {
   font-size: 3.5rem;
 }
 
+.bio {
+  background-color: #f6f6f6;
+}
+
 .menus {
   font-family: "Raleway", sans-serif;
   background-color: #f6f6f6;
@@ -288,7 +299,7 @@ header #ohmy {
 .menus .card__images {
   background-image: url("./photo/menus-1.jpg");
   min-height: 38rem;
-  min-width: 1000px;
+  min-width: 1200px;
   background-size: cover;
   background-position: center;
   border-radius: 35px 35px 0 0;
@@ -296,7 +307,7 @@ header #ohmy {
 .menus .card__images-2 {
   background-image: url("./photo/menus-2.jpg");
   min-height: 38rem;
-  min-width: 1000px;
+  min-width: 1200px;
   background-size: cover;
   background-position: center;
   border-radius: 35px 35px 0 0;
@@ -304,7 +315,7 @@ header #ohmy {
 .menus .card__images-3 {
   background-image: url("./photo/menus-3.jpg");
   min-height: 38rem;
-  min-width: 1000px;
+  min-width: 1200px;
   background-size: cover;
   background-position: center;
   border-radius: 35px 35px 0 0;
@@ -312,10 +323,8 @@ header #ohmy {
 .menus .card__images-4 {
   background-image: url("./photo/menus-4.jpg");
   min-height: 38rem;
-  min-width: 1000px;
+  min-width: 1200px;
   background-size: cover;
-  -o-object-fit: cover;
-     object-fit: cover;
   background-position: center;
   border-radius: 35px 35px 0 0;
 }
